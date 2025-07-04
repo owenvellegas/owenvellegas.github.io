@@ -19,7 +19,8 @@ p {
     color: rgb(85, 85, 85)
 }
 
-a, .btn {
+a, 
+.btn {
   transition: all 300ms ease;
 }
 
@@ -27,25 +28,24 @@ a, .btn {
 
 nav {
   justify-content: space-around;
-  display: flex;
   align-items: center;
+  display: flex;
   height: 17vh;
 }
 
-.nav-links {
-  gap: 2rem;
-  list-style: none;
-  display: flex;
-  font-size: 1.5rem;
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
 }
 
-a {
+nav a {
   color: black;
   text-decoration: none;
   text-decoration-color: white;
 }
 
-a:hover {
+nav a:hover {
   color: grey;
   text-decoration: underline;
   text-underline-offset: 1rem;
@@ -59,6 +59,10 @@ a:hover {
 .logo:hover {
   cursor: default;
 }
+
+/* Sections */
+
+
 
 /* Footer */
 
