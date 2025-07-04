@@ -62,7 +62,12 @@ nav a:hover {
 
 /* Sections */
 
-
+.profile-image {
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+  clip-path: circle(200px at center);
+}
 
 /* Footer */
 
