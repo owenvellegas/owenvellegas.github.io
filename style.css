@@ -171,18 +171,13 @@ section {
   padding-top: 7.5vh;
 }
 
-.profile-image {
-  width: 370px;
-  height: 370px;
-  object-fit: cover;
-  clip-path: circle(170px at center);
-}
-
 .section__pic-container {
   display: flex;
   height: 400px;
   width: 400px;
   margin: auto 0;
+  object-fit: cover;
+  clip-path: circle(125px at center);
 }
 
 .section__text {
