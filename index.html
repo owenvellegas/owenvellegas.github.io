@@ -3,65 +3,57 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Owen Vellegas Portfolio</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="mediaqueries.css" />
+  <title>Owen Vellegas</title>
 </head>
 <body>
-  <nav id="desktop-nav">
-    <div class="logo">Owen Vellegas</div>
-    <div>
-      <ul class="nav-links">
-        <li><a href="#about">About</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#projects">Projects</a></li>
-      </ul>
-    </div>
-  </nav>
-  <nav id="hamburger-nav">
-    <div class="logo">Owen Vellegas</div>
-    <div class="hamburger-menu">
-      <div class="hamburger-icon" onclick="toggleMenu()">
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
-      <div class="menu-links">
-        <li><a href="#about" onclick="toggleMenu()">About</a></li>
-        <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
-        <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-      </div>
-    </div>
-  </nav>
-  <section id="profile">
-    <div class="section__pic-container">
-        <img src="./assets/profile_image.png" class="profile-image" alt="Owen Vellegas profile picture" />
-    </div>
-    <div class="section__text">
-      <p class="section__text__p1">Hello, I'm</p>
-      <h1 class="title">Owen Vellegas</h1>
-      <p class="section__text__p2">Computer Science @ University of Washington</p>
-      <div id="socials-container">
-        <img
-          src="./assets/linkedin.svg"
-          alt="My LinkedIn profile"
-          class="icon"
-          onclick="location.href='https://linkedin.com/in/owen-vellegas'"
-        />
-        <img
-          src="./assets/github.svg"
-          alt="My Github profile"
-          class="icon"
-          onclick="location.href='https://github.com/owenvellegas'"
-        />
-      </div>
-    </div>
-  </section>
 
-  <script src="script.js"></script>
+  <h1>Owen Vellegas</h1>
+  <p>Computer Science student at the University of Washington</p>
 
-  <footer>
-    <p>&#169; 2025 Owen Vellegas</p>
-  </footer>
+  <img src="./assets/profile_image.png" alt="Owen Vellegas" width="200" />
+
+  <h2>About Me</h2>
+  <p>
+    I'm a CS student at UW interested in <strong>Machine Learning</strong> and AI.
+    I enjoy building things and figuring out how to make software smarter.
+    Outside of school I stay pretty active — gym, tennis, and soccer.
+    You can find most of my work on <a href="https://github.com/owenvellegas" target="_blank">GitHub</a>.
+  </p>
+
+  <h2>Academic Interests</h2>
+  <p>Right now I'm most interested in:</p>
+  <ul>
+    <li>Machine learning</li>
+    <li>Agentic AI</li>
+    <li>Computer Vision</li>
+  </ul>
+
+  <h2>Relevant Coursework</h2>
+  <table border="1" cellpadding="6" cellspacing="0">
+    <tr>
+      <th>Course</th>
+      <th>Topic</th>
+    </tr>
+    <tr>
+      <td>CSE 446</td>
+      <td>Machine Learning</td>
+    </tr>
+    <tr>
+      <td>CSE 473</td>
+      <td>Artificial Intelligence</td>
+    </tr>
+    <tr>
+      <td>CSE 493G</td>
+      <td>Deep Learning</td>
+    </tr>
+    <tr>
+      <td>CSE 332</td>
+      <td>Data Structures &amp; Parallelism</td>
+    </tr>
+  </table>
+
+  <br />
+  <p><a href="about.md"><em>More about me</em> →</a></p>
+
 </body>
 </html>
