@@ -1,0 +1,1 @@
+function e(e){if(e.defaultPrevented||e.ctrlKey||e.metaKey||e.altKey||e.isComposing)return!1;let t=e.target;return!(t instanceof Element&&t.closest(`input, textarea, select, [contenteditable="true"], dialog, [data-menu-surface]`))}export{e as t};

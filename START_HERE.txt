@@ -1,0 +1,27 @@
+OWEN'S WEBSITE
+
+Use Node.js 24 and pnpm 10.12.3.
+
+1. Extract the ZIP.
+2. Open a terminal in the owen-website folder.
+3. Run:
+
+   pnpm install
+   pnpm dev
+
+Open the local address printed in the terminal.
+
+Build for hosting:
+   pnpm build
+
+Upload the generated dist directory to a static web host at the domain root.
+To preview the build:
+   pnpm serve
+
+Checks:
+   pnpm check
+   pnpm test
+
+The site needs a web server; double-clicking index.html will not run the app.
+The manual interaction guide is docs/MANUAL_TESTING.md.
+Licensing terms are in LICENSE.

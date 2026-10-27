@@ -1,0 +1,25 @@
+{
+	"compilerOptions": {
+		"moduleResolution": "Bundler",
+		"allowImportingTsExtensions": true,
+		"verbatimModuleSyntax": true,
+		"sourceMap": true,
+		"lib": ["ESNext", "DOM", "WebWorker"],
+		"strict": false,
+		"esModuleInterop": true,
+		"noEmit": true,
+		"skipLibCheck": true,
+		"forceConsistentCasingInFileNames": true,
+		"target": "esnext",
+		"module": "esnext",
+		"resolveJsonModule": true,
+		"paths": {
+			"\ud83c\udf4e/*": ["./src/*"]
+		},
+		"types": ["svelte", "vite/client", "vite-plugin-pwa/client", "unplugin-icons/types/svelte"],
+		"allowJs": true,
+		"checkJs": true
+	},
+	"include": ["src/**/*.d.ts", "src/**/*.ts", "src/**/*.js", "src/**/*.svelte", "./*.ts"],
+	"exclude": ["node_modules/**/*"]
+}
